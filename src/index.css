@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif+JP:wght@200..900&family=Outfit:wght@100..900&family=Playfair+Display&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  background:   linear-gradient(to right, #FBFBEB, #f9f1fd);
+  align-items: center;
+  flex-direction: column;
+}
+
+.header{
+  width: 100vw;
+  height: 160px;
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
+  align-items:start;
+  justify-content: space-around;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  gap: 20px;
+}
+.header__title p{
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.header__links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  color: #000000c2 ;
+  padding: 15px;
+  font-size: 11pt;
+  border-radius: 24px;
+  box-shadow: #00000044 2px 2px 5px;
+  background-color: #fdfbfe;
+  border: #fff solid 1px;
+}
+
+main{
+  width: 100vw;
+  height: 100vh   ;
+  background-color: #FFF;
+
+}
+.container {
+  text-align: center; /* Centraliza tudo */
+  position: relative;
+
+  font-family: "Amethysta", sans-serif;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -30px; /* Faz a imagem ultrapassar a div sem afetar o texto */
+}
+
+.text {
+  margin-top: -10px; /* Ajusta para ficar mais perto da imagem */
+  font-size: 18px;
+  color: #00000088;
+}
+.container__title{
+  font-size: 32pt;
+}
+.container__sub-title{
+  color: #00000088;
+}
+
+
+.icons{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:15px
+}
+
+
