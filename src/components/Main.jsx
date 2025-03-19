@@ -2,6 +2,7 @@ import React from 'react'
 import imagemSvg from '../assets/avatar-2.svg';
 import Icons from './Icons';
 import { faHtml5, faCss3, faJs, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import Button from './Button';
 
 
 const Main = () => {
@@ -21,6 +22,8 @@ const Main = () => {
 
             {/* Passando os ícones corretamente */}
             <Icons icons={[faHtml5, faCss3, faJs, faReact, faNodeJs]} />
+
+            <Button />
         </div>
     </main>
     )

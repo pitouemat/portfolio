@@ -4,13 +4,13 @@ const Header = () => {
   return (
      <div className="header">
         <div className="header__title">
-          <p>Matheus.</p>
+          <p>Matheus Aguiar</p>
         </div>
 
       <div className="header__links">
           <p>Home</p>
           <p>Sobre Mim</p>
-          <p>Tecnologias</p>
+          <p>Projetos</p>
           <p>Contato</p>
       </div>
 
